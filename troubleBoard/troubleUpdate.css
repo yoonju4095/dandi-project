@@ -1,0 +1,86 @@
+.troubleUpdate {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 30px;
+}
+
+.troubleUpdate li {
+  padding: 5px;
+  border-bottom: 1px solid #dadada;
+}
+
+.troubleUpdate .div_1 {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+.troubleUpdate .div_1 li {
+  padding: 20px;
+  padding-right: 30px;
+  font-size: medium;
+}
+
+.troubleUpdate .div_2 li {
+  padding: 15.85px;
+  font-size: medium;
+}
+
+.troubleUpdate .div_2 li input {
+  height: 20px;
+}
+
+.troubleUpdate .div_2 li select {
+  height: 25px;
+}
+
+.troubleUpdate .div_1,
+.troubleUpdate .div_2 {
+  border-top: 1px solid #dadada;
+  /* border-bottom: 1px solid #dadada; */
+}
+
+#name,
+#pwd {
+  padding: 20px;
+}
+
+/* 제목 */
+#title {
+  width: 800px;
+}
+
+/* 내용 */
+#content {
+  width: 1000px;
+  height: 500px;
+}
+
+/* 등록, 취소 버튼 */
+.div_3 {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.div_3 button {
+  font-size: medium;
+  font-weight: bold;
+  padding: 5px;
+  width: 55px;
+  cursor: pointer;
+}
+
+/* 등록 버튼 색상*/
+/* .div3 .add{
+  background-color: rgb(28, 135, 28);
+  color: white;
+  /* border: none;
+} */
+
+/* 취소 버튼 색상*/
+/* .div3 .cancel{
+  background-color: white;
+  color: green;
+  border-color: green;
+}  */

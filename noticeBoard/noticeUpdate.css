@@ -1,0 +1,66 @@
+.noticeUpdate {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 30px;
+}
+
+.noticeUpdate li {
+  padding: 5px;
+  border-bottom: 1px solid #dadada;
+}
+
+.noticeUpdate .div_1 {
+  background-color: #f8f8f8;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.noticeUpdate .div_1 li {
+  padding: 20px;
+  padding-right: 50px;
+}
+
+.noticeUpdate .div_2 li {
+  padding: 13px;
+  font-size: medium;
+}
+
+.noticeUpdate .div_2 li input {
+  height: 25px;
+}
+
+.noticeUpdate .div_2 li select {
+  height: 25px;
+}
+
+.noticeUpdate .div_1,
+.noticeUpdate .div_2 {
+  border-top: 1px solid #dadada;
+}
+
+/* 제목 */
+#title {
+  width: 800px;
+}
+
+/* 내용 */
+#content {
+  width: 1000px;
+  height: 500px;
+}
+
+/* 수정, 삭제 버튼 */
+.div_3 {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.div_3 button {
+  font-size: medium;
+  font-weight: bold;
+  padding: 5px;
+  width: 55px;
+  cursor: pointer;
+}

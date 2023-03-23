@@ -1,0 +1,65 @@
+.search {
+  display: flex;
+  justify-content: flex-end;
+  align-content: end;
+  padding: 30px 60px 10px;
+  font-weight: bold;
+}
+
+.search input,
+.search select,
+.search .searchBtn {
+  margin: 3px;
+  padding: auto;
+}
+
+.search .searchBtn {
+  width: 55px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.troubleList {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5px 50px 0px 50px;
+}
+
+table {
+  /* font-family: arial, sans-serif; */
+  /* border-collapse: collapse; */
+  width: 1000px;
+  text-align: center;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+td {
+  height: 17px;
+}
+
+th {
+  background-color: #93d6af;
+  text-align: center;
+  font-weight: bold;
+}
+
+.add {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 70px 50px;
+}
+
+/* 글쓰기 버튼 */
+.add button {
+  font-weight: bold;
+  width: 55px;
+  padding: 5px;
+  cursor: pointer;
+}
