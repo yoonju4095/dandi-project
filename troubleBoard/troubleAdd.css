@@ -1,40 +1,40 @@
-.troubleBoard {
+.troubleAdd {
   display: flex;
   justify-content: center;
   padding-top: 30px;
 }
 
-.troubleBoard li {
+.troubleAdd li {
   padding: 5px;
   border-bottom: 1px solid #dadada;
 }
 
-.troubleBoard .div_1 {
+.troubleAdd .div_1 {
   background-color: #f8f8f8;
   font-weight: bold;
 }
 
-.troubleBoard .div_1 li {
+.troubleAdd .div_1 li {
   padding: 20px;
   padding-right: 30px;
   font-size: medium;
 }
 
-.troubleBoard .div_2 li {
+.troubleAdd .div_2 li {
   padding: 16px;
   font-size: medium;
 }
 
-.troubleBoard .div_2 li input {
+.troubleAdd .div_2 li input {
   height: 20px;
 }
 
-.troubleBoard .div_2 li select {
+.troubleAdd .div_2 li select {
   height: 25px;
 }
 
-.troubleBoard .div_1,
-.troubleBoard .div_2 {
+.troubleAdd .div_1,
+.troubleAdd .div_2 {
   border-top: 1px solid #dadada;
 }
 
@@ -63,17 +63,3 @@
   width: 55px;
   cursor: pointer;
 }
-
-/* 등록 버튼 색상*/
-/* .div3 .add{
-  background-color: rgb(28, 135, 28);
-  color: white;
-  /* border: none;
-} */
-
-/* 취소 버튼 색상*/
-/* .div3 .cancel{
-  background-color: white;
-  color: green;
-  border-color: green;
-}  */
